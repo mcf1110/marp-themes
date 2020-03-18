@@ -1,0 +1,72 @@
+/* @theme anhembi */
+
+@import-theme 'default';
+
+$color: #00ac8d;
+
+section {
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $color;
+        height: 8px;
+        display: block;
+        width: 100%;
+        content: '';
+    }
+
+    h1 {
+        color: $color;
+    }
+
+    header {
+        font-size: 20px;
+    }
+
+    &.center * {
+        text-align: center;
+    }
+
+    &.lead {
+        background-color: $color;
+        color: white;
+
+        * {
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        header,
+        footer {
+            display: none;
+        }
+
+        &::after {
+            color: white;
+        }
+    }
+
+    &.first {
+        background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/d6/d6/ba/d6d6ba10-9a5a-2308-e2b9-b2128a137276/source/0x0ss-85.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 150% center;
+
+        h1 {
+            max-width: 85%;
+        }
+
+        header {
+            font-size: 0;
+            height: 73px;
+            width: 300px;
+            background-image: url("http://portal.anhembi.br/wp-content/uploads/2016/04/anhembi-morumbi-300x73.png");
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+}
