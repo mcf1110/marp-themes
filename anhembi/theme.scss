@@ -69,4 +69,19 @@ section {
             display: none;
         }
     }
+
+    &.cols {
+
+        ul,
+        ol {
+            display: grid;
+            grid: auto / 1fr 1fr;
+            grid-gap: .25rem 3rem;
+
+            li {
+                margin: 0 !important;
+            }
+        }
+
+    }
 }

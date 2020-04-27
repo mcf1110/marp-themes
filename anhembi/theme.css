@@ -64,4 +64,17 @@ section.first header {
 section.first:after {
   display: none;
 }
+
+section.cols ul,
+section.cols ol {
+  display: -ms-grid;
+  display: grid;
+  grid: auto / 1fr 1fr;
+  grid-gap: .25rem 3rem;
+}
+
+section.cols ul li,
+section.cols ol li {
+  margin: 0 !important;
+}
 /*# sourceMappingURL=theme.css.map */
