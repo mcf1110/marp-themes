@@ -44,7 +44,7 @@ section.lead::after {
 }
 
 section.first {
-  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/d6/d6/ba/d6d6ba10-9a5a-2308-e2b9-b2128a137276/source/0x0ss-85.png);
+  background-image: url(https://raw.githubusercontent.com/mcf1110/marp-themes/master/anhembi/img/big-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 150% center;
@@ -58,7 +58,7 @@ section.first header {
   font-size: 0;
   height: 73px;
   width: 300px;
-  background-image: url("http://portal.anhembi.br/wp-content/uploads/2016/04/anhembi-morumbi-300x73.png");
+  background-image: url(https://raw.githubusercontent.com/mcf1110/marp-themes/master/anhembi/img/logo.svg);
 }
 
 section.first:after {
