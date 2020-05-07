@@ -50,9 +50,9 @@ section {
 
     &.first {
         background-image: url(https://raw.githubusercontent.com/mcf1110/marp-themes/master/anhembi/img/big-logo.svg);
-        background-size: contain;
+        background-size: 525px;
         background-repeat: no-repeat;
-        background-position: 150% center;
+        background-position: 123% center;
 
         h1 {
             max-width: 85%;
@@ -60,9 +60,10 @@ section {
 
         header {
             font-size: 0;
-            height: 73px;
+            height: 70px;
             width: 300px;
             background-image: url(https://raw.githubusercontent.com/mcf1110/marp-themes/master/anhembi/img/logo.svg);
+            background-repeat: no-repeat;
         }
 
         &:after {
