@@ -2,6 +2,9 @@
 
 @import-theme 'default';
 
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@477&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 $color: #00ac8d;
 
 section {
@@ -14,6 +17,18 @@ section {
         display: block;
         width: 100%;
         content: '';
+    }
+
+    font-family: 'Montserrat',
+    sans-serif;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Sora', sans-serif;
     }
 
     h1 {
@@ -56,6 +71,11 @@ section {
 
         h1 {
             max-width: 85%;
+        }
+
+        h3 {
+            margin-top: 0;
+            font-size: 1rem;
         }
 
         header {
