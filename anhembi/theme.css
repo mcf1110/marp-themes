@@ -108,8 +108,8 @@ section code.language-bash {
   border-top: 1em solid #BBB;
   border-radius: 1em;
   position: relative;
-  -webkit-box-shadow: 0 0.5em 1rem rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0.5em 1rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0.25em 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0.25em 1rem rgba(0, 0, 0, 0.4);
 }
 
 section code.language-bash:after {
