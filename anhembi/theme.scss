@@ -105,4 +105,28 @@ section {
         }
 
     }
+
+    code.language-bash {
+        background: #111;
+        color: white;
+        display: block;
+        margin: -1em;
+        padding: 1em;
+        border-top: 1em solid #BBB;
+        border-radius: 1em;
+        position: relative;
+        box-shadow: 0 .5em 1rem rgba(0, 0, 0, .5);
+
+        &:after {
+            background: red;
+            width: .75em;
+            height: .75em;
+            content: '';
+            display: block;
+            position: absolute;
+            right: .5em;
+            top: -.8em;
+            border-radius: 50%;
+        }
+    }
 }
