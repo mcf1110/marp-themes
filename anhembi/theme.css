@@ -140,4 +140,12 @@ section .flex-g {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+
+section .ml {
+  margin-left: 1em;
+}
+
+section .mr {
+  margin-right: 1em;
+}
 /*# sourceMappingURL=theme.css.map */
