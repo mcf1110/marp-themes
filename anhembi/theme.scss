@@ -129,4 +129,16 @@ section {
             border-radius: 50%;
         }
     }
+
+    .flex {
+        display: flex;
+
+        &.space-around {
+            justify-content: space-around;
+        }
+    }
+
+    .flex-g {
+        flex-grow: 1;
+    }
 }

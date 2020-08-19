@@ -123,4 +123,21 @@ section code.language-bash:after {
   top: -.8em;
   border-radius: 50%;
 }
+
+section .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .flex.space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .flex-g {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
 /*# sourceMappingURL=theme.css.map */
