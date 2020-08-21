@@ -132,4 +132,8 @@ section img.emoji {
 section .katex * {
   border-color: black;
 }
+
+section ul {
+  list-style: initial;
+}
 /*# sourceMappingURL=theme.css.map */
