@@ -1,6 +1,7 @@
 /* @theme anhembi */
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@477&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
 @import-theme 'default';
 section {
   font-family: 'Montserrat', sans-serif;
@@ -124,28 +125,11 @@ section code.language-bash:after {
   border-radius: 50%;
 }
 
-section .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+section img.emoji {
+  display: inline-block;
 }
 
-section .flex.space-around {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-section .flex-g {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-section .ml {
-  margin-left: 1em;
-}
-
-section .mr {
-  margin-right: 1em;
+section .katex * {
+  border-color: black;
 }
 /*# sourceMappingURL=theme.css.map */
