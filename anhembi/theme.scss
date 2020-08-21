@@ -140,9 +140,12 @@ section {
         border-color: black;
     }
 
-    ul,
+    ul {
+        list-style: disc;
+    }
+
     ol {
-        list-style: revert;
+        list-style: decimal;
     }
 
     ol ol {

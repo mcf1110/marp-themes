@@ -133,9 +133,12 @@ section .katex * {
   border-color: black;
 }
 
-section ul,
+section ul {
+  list-style: disc;
+}
+
 section ol {
-  list-style: revert;
+  list-style: decimal;
 }
 
 section ol ol {
