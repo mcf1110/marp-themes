@@ -133,7 +133,8 @@ section .katex * {
   border-color: black;
 }
 
-section ul {
+section ul,
+section ol {
   list-style: initial;
 }
 /*# sourceMappingURL=theme.css.map */
