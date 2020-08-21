@@ -135,6 +135,10 @@ section .katex * {
 
 section ul,
 section ol {
-  list-style: initial;
+  list-style: revert;
+}
+
+section ol ol {
+  list-style: lower-alpha !important;
 }
 /*# sourceMappingURL=theme.css.map */

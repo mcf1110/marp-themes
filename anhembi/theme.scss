@@ -142,6 +142,10 @@ section {
 
     ul,
     ol {
-        list-style: initial;
+        list-style: revert;
+    }
+
+    ol ol {
+        list-style: lower-alpha !important;
     }
 }
